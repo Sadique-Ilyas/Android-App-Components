@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">Android App Components - Activities, Broadcast Receivers, Services and Content Providers</string>
     <string name="textView">TextView</string>
+    <string name="content_provider">Content Provider</string>
+    <string name="services">Services</string>
+    <string name="broadcast_receiver">Broadcast Receiver</string>
+    <string name="activity">Activity</string>
+    <string name="activityDef">An activity represents a single screen
+                               with a user interface just like this window </string>
+    <string name="play_music">Play Music</string>
+    <string name="stop_music">Stop Music</string>
 </resources>
