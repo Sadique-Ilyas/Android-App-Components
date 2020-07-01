@@ -9,4 +9,18 @@
                                with a user interface just like this window </string>
     <string name="play_music">Play Music</string>
     <string name="stop_music">Stop Music</string>
+    <string name="add_new_contact">ADD NEW CONTACT</string>
+    <string name="contact_id">Contact ID</string>
+    <string name="save">SAVE</string>
+    <string name="delete_contact">DELETE CONTACT</string>
+    <string name="delete">DELETE</string>
+    <string name="contact_info">CONTACT INFO</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="hello_world">Hello World…</string>
+    <string name="update_contact">UPDATE CONTACT</string>
+    <string name="name">NAME</string>
+    <string name="email">EMAIL</string>
+    <string name="update">UPDATE</string>
+    <string name="view_contact">View Contact</string>
+    <string name="edit_contact">Edit Contact</string>
 </resources>
