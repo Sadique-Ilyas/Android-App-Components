@@ -23,4 +23,12 @@
     <string name="update">UPDATE</string>
     <string name="view_contact">View Contact</string>
     <string name="edit_contact">Edit Contact</string>
+    <string name="web_service">Web Service</string>
+    <string name="download_image_activity">DownLoadImageActivity</string>
+    <string name="download_image">Download Image</string>
+    <string name="defaultURL">https://upload.wikimedia.org/wikipedia/commons/3/3e/Android_logo_2019.png</string>
+    <string name="hintprompt">Please touch the floating action button to add a URL</string>
+    <string name="enter_url">Enter URL (or press enter for default)</string>
+    <string name="downloading">Downloading…</string>
+    <string name="ok_button">OK</string>
 </resources>

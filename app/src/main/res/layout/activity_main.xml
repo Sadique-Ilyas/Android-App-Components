@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,10 +8,10 @@
 
 
     <Button
-        android:onClick="btn_activity"
         android:id="@+id/btn_activity"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
+        android:onClick="btn_activity"
         android:text="@string/activity"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -20,14 +19,14 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.165" />
+        app:layout_constraintVertical_bias="0.15" />
 
     <Button
-        android:onClick="btn_broadcastReceiver"
         android:id="@+id/btn_broadcastReceiver"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
+        android:onClick="btn_broadcastReceiver"
         android:text="@string/broadcast_receiver"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -35,14 +34,14 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.351" />
+        app:layout_constraintVertical_bias="0.291" />
 
     <Button
-        android:onClick="btn_services"
         android:id="@+id/btn_services"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="28dp"
+        android:onClick="btn_services"
         android:text="@string/services"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -50,13 +49,13 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.576" />
+        app:layout_constraintVertical_bias="0.479" />
 
     <Button
         android:id="@+id/btn_contentProvider"
-        android:onClick="btn_contentProvider"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
+        android:onClick="btn_contentProvider"
         android:text="@string/content_provider"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -64,6 +63,19 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.772" />
+        app:layout_constraintVertical_bias="0.624" />
+
+    <Button
+        android:id="@+id/btn_webService"
+        android:onClick="btn_webService"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/web_service"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.761" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

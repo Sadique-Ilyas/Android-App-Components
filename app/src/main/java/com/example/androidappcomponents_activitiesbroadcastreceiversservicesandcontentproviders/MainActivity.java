@@ -37,4 +37,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this,MyContentProvider.class);
         startActivity(intent);
     }
+
+    public void btn_webService(View view)
+    {
+        Intent intent = new Intent(this,WebServiceActivity.class);
+        startActivity(intent);
+    }
 }
