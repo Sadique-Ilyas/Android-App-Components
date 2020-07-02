@@ -26,6 +26,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/txt_contact_id"
             android:layout_width="match_parent"
+            android:inputType="number"
             android:layout_height="wrap_content"
             android:hint="@string/contact_id" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -38,6 +39,7 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/txt_contact_name"
+            android:inputType="textPersonName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/name" />
@@ -53,7 +55,8 @@
             android:id="@+id/txt_contact_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/email" />
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button

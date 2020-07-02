@@ -46,4 +46,9 @@ public class AddContactFragment extends Fragment {
         });
         return view;
     }
+
+    public boolean isValidEmailAddress(String email)
+    {
+        return email.contains("@");
+    }
 }
